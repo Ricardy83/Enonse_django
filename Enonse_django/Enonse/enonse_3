@@ -1,0 +1,6 @@
+//kreye yon fichye django
+mkdir folio && cd project
+python -m venv projectenv
+projectenv\scripts\activate
+pip install moncashify==vesyon
+pip install django

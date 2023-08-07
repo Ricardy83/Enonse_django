@@ -1,0 +1,7 @@
+//kreye yon fichye django
+mkdir folio && cd project
+python -m venv projectenv
+projectenv\scripts\activate
+pip install django
+django-admin startproject blog
+python manage.py runserver:8080
